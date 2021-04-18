@@ -1,9 +1,0 @@
-{
-  "name": "@gagarin-ds/button",
-  "version": "0.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "react": "^17.0.1",
-    "styled-components": "^5.2.1"
-  }
-}

@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    { "path": "button" },
+    { "path": "theming" }
+
+  ],
+  "compilerOptions": {
+    "outDir": "dist",
+    "composite": true
+  }
+}

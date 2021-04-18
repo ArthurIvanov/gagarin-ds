@@ -1,32 +1,28 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "esnext",
-        "lib": ["dom", "esnext"],
-        "declaration": true,
+        "composite": true,
+        "module": "CommonJS",
+        "types": [],
         "sourceMap": true,
-        "moduleResolution": "node",
-        "skipLibCheck": true,
+        "target": "ES2015",
         "strict": true,
-        "noFallthroughCasesInSwitch": true,
-        "suppressImplicitAnyIndexErrors": true,
-        "noImplicitAny": true,
-        "strictFunctionTypes": true,
-        "strictNullChecks": true,
-        "strictPropertyInitialization": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "declaration": true,
+        "baseUrl": ".",
         "jsx": "react",
-        "esModuleInterop": true,
-        "resolveJsonModule": true,
-        "allowSyntheticDefaultImports": true,
-        "downlevelIteration": true
-    },
-    "include": ["packages"],
-    "exclude": ["node_modules"],
-    "ts-node": {
-        "compilerOptions": {
-            "module": "CommonJS",
-            "resolveJsonModule": true,
-            "noImplicitAny": false
+        "paths": {
+            "@gagarin-ds/*": [
+                "packages/button/*"
+
+            ]
         }
-    }
+    },
+    "references": [
+        { "path": "packages/button" }
+
+    ],
+    "exclude": ["node_modules"],
+    "files": []
 }

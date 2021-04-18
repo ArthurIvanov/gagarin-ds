@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "CommonJS",
+    "types": [],
+    "sourceMap": true,
+    "target": "ES2018",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "declaration": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "jsx": "react",
+    "paths": {
+      "@gagarin-ds/*": [
+        "packages/button/*"
+
+      ]
+    }
+  },
+  "exclude": ["node_modules"]
+}

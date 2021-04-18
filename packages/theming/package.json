@@ -1,0 +1,13 @@
+{
+  "name": "@gagarin-ds/theming",
+  "version": "0.0.0",
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "scripts": {
+    "build": "tsc -b ."
+  },
+  "devDependencies": {
+    "styled-components": "^5.2.1"
+  }
+}
