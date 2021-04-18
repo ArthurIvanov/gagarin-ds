@@ -1,9 +1,9 @@
 {
   "name": "@gagarin-ds/button",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
-    "react": "^17.0.1",
-    "@gagin-ds/theming": "^0.0.0"
+    "@gagin-ds/theming": "^0.0.0",
+    "react": "^17.0.1"
   },
   "scripts": {
     "build": "tsc -b ."

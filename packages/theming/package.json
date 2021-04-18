@@ -1,6 +1,6 @@
 {
   "name": "@gagarin-ds/theming",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "react": "^17.0.1"
   },
